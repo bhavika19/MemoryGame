@@ -14,6 +14,8 @@
 		3F5261112130BDE800C90B65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F52610F2130BDE800C90B65 /* LaunchScreen.storyboard */; };
 		3F52611C2130BDE900C90B65 /* MemoryGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F52611B2130BDE900C90B65 /* MemoryGameTests.swift */; };
 		3F5261272130BDE900C90B65 /* MemoryGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5261262130BDE900C90B65 /* MemoryGameUITests.swift */; };
+		3F5261352130BE3C00C90B65 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5261342130BE3C00C90B65 /* Deck.swift */; };
+		3F5261372130C02100C90B65 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5261362130C02100C90B65 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3F5261222130BDE900C90B65 /* MemoryGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5261262130BDE900C90B65 /* MemoryGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameUITests.swift; sourceTree = "<group>"; };
 		3F5261282130BDE900C90B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F5261342130BE3C00C90B65 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		3F5261362130C02100C90B65 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				3F5261062130BDE700C90B65 /* AppDelegate.swift */,
 				3F5261082130BDE700C90B65 /* ViewController.swift */,
+				3F5261362130C02100C90B65 /* Card.swift */,
+				3F5261342130BE3C00C90B65 /* Deck.swift */,
 				3F52610A2130BDE700C90B65 /* Main.storyboard */,
 				3F52610D2130BDE800C90B65 /* Assets.xcassets */,
 				3F52610F2130BDE800C90B65 /* LaunchScreen.storyboard */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5261352130BE3C00C90B65 /* Deck.swift in Sources */,
 				3F5261092130BDE700C90B65 /* ViewController.swift in Sources */,
 				3F5261072130BDE700C90B65 /* AppDelegate.swift in Sources */,
+				3F5261372130C02100C90B65 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
